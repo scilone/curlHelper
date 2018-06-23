@@ -1,0 +1,7 @@
+{
+    "name": "scilone/curlHelper",
+    "description": "Just a curl helper",
+    "require": {
+        "php": "^5.5 || ^7.0"
+    }
+}

@@ -953,6 +953,22 @@ class CurlHelper
     }
 
     /**
+     * @param string $name
+     *
+     * @return $this
+     */
+    public function enableCookieJar($name)
+    {
+        $name = (string) $name;
+
+        $this->addCookie($name, '');
+
+        curl_setopt($this->ch, CURLOPT_COOKIEJAR, $name);
+
+        return $this;
+    }
+
+    /**
      * @param array $cookies
      *
      * @return $this

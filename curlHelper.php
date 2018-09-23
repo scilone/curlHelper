@@ -1,5 +1,7 @@
 <?php
 
+namespace Scilone\CurlHelper;
+
 /**
  * Class CurlHelper
  */

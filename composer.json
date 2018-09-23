@@ -3,5 +3,10 @@
     "description": "Just a curl helper",
     "require": {
         "php": "^5.5 || ^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scilone\\CurlHelper\\": "/"
+        }
     }
 }
